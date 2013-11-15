@@ -2,8 +2,8 @@
 
 #div1
 {
-	background:url(http://images.apple.com/v/iphone-5s/a/images/texture_gray.png), 
-		url(http://images.apple.com/v/iphone-5s/a/images/gradient_black.png); 
+	background:url(/sections/1/texture_gray.png), 
+		url(/sections/1/gradient_black.png); 
 	background-size:160px,20px 100%; 
 	background-color: #000000;
 
@@ -19,8 +19,8 @@
 
 #div3
 {
-	background:url(http://images.apple.com/v/iphone-5s/a/images/texture_50.png), 
-		url(http://images.apple.com/v/iphone-5s/a/images/gradient_gold.png); 
+	background:url(/sections/3/texture_gold.png), 
+		url(/sections/3/gradient_gold.png); 
 	background-size:160px,20px 100%;
 
 	top: 207%;

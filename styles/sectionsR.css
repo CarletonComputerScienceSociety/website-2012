@@ -2,8 +2,8 @@
 
 #div2
 {
-	background: url(http://images.apple.com/v/iphone-5s/a/images/texture_50.png),
-		url(http://images.apple.com/v/iphone-5s/a/images/gradient_silver.png); 
+	background: url(/sections/2/texture_silver.png),
+		url(/sections/2/gradient_silver.png); 
 	background-size:160px,20px 100%; 
 
 	top: 107%;

@@ -1,24 +1,12 @@
-@font-face {
-font-family: RobotoLight;
-src: url("../res/Roboto-Light.ttf");
-}
 
-@font-face {
-font-family: RobotoThin;
-src: url("../res/Roboto-Thin.ttf");
-}
-
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, p
 {
-	font-family: RobotoLight;
+	font-family: Roboto;
+	font-weight: 300;
+
 	color: #ffffff;
 }
 
-p
-{
-	font-family: RobotoThin;
-	color: #ffffff;
-}
 
 body, img
 {
