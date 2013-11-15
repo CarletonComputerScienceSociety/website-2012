@@ -1,0 +1,22 @@
+#pCastRecent
+{
+	width: 500px;
+	height: 100%;
+	float: left;
+
+	padding: 0;
+	margin: 0;
+}
+
+#pCastOld
+{
+	position: absolute;
+
+	left: 550px;
+
+	width: 50%;
+
+	padding: 0;
+
+	overflow: scroll;
+}

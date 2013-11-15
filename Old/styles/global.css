@@ -1,0 +1,59 @@
+@font-face {
+font-family: Raleway;
+src: url("../res/Raleway-Light.otf") format("opentype");
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol
+{
+	font-family: Raleway;
+	color: #ffffff;
+}
+
+body
+{
+	margin: 0;
+}
+
+#headWrapper
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	background: rgba(0, 0, 0, 0.7);
+	height: 100px;
+	width: 100%;
+}
+
+#headerLogo
+{
+	position: fixed;
+	top: 15px;
+	left: 2%;
+
+	height: 70px;
+	width: auto;
+}
+
+#spacer
+{
+	height: 100px;
+	width: 100%;
+}
+
+#sideWrapper
+{
+	position: fixed;
+	top: 150px;
+	left: 2%;
+
+	background: rgba(0, 0, 0, 0.7);
+	
+	padding: 10px;
+}
+
+.console
+{
+	color: #99ee00;
+}
+

@@ -1,0 +1,49 @@
+#blurbDiv
+{
+	position: relative;
+	float: right;
+
+	height: 100%;
+	width: 500px;
+}
+
+#directorsDiv
+{
+
+	margin: 50px;
+
+	position: relative;
+	float: right;
+
+	height: 100%;
+}
+
+#selectDiv
+{
+	height: 50px;
+
+	padding: 0px;
+
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.selTitle
+{
+	position: relative;
+	float: left;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+#contentDiv
+{
+	width: 100%;
+	height: auto;
+
+	padding: 0px;
+	margin:0px;
+}

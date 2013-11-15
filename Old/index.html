@@ -1,0 +1,75 @@
+<html>
+
+	<head>
+
+		<script type = "text/javascript" src = "res/jquery-2.0.3.js"></script>
+		<script type = "text/javascript" src = "res/jquery.transit.min.js"></script>
+		<script type = "text/javascript" src = "res/waypoints.js"></script>
+
+		<script type = "text/javascript" src = "scripts/sections.js"></script>
+		<script type = "text/javascript" src = "scripts/nav.js"></script>
+		<script type = "text/javascript" src = "scripts/init.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="styles/global.css"></link>
+		<link rel="stylesheet" type="text/css" href="styles/sections.css"></link>
+		<link rel="stylesheet" type="text/css" href="styles/podcast.css"></link>
+
+
+		<script type="text/javascript">
+	
+			$(window).load(
+			function()
+			{
+				siteInit();
+
+				$('#sideWrapper').append("<p class='console'> Site Ready...check </p>");
+				
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+
+			<!-- Section Divs (placed by jquery, non-natural flow) -->
+
+			<div class = "sectionDiv" id = "div1"></div>
+
+			<div class = "sectionDiv" id = "div2"></div>
+
+			<div class = "sectionDiv" id = "div3"></div>
+
+
+			<!-- Regular Flow Elements -->
+
+			<div id = "spacer"></div>
+
+			<img class = "sectionImg" id = "img1" src = "/sections/1/1.jpg">
+
+			<img class = "sectionImg" id = "img2" src = "/sections/2/2.jpg">
+
+			<img class = "sectionImg" id = "img3" src = "/sections/3/3.jpg">
+
+
+
+			<!-- Fixed Elements -->
+
+			
+			<div id = "headWrapper"></div>
+
+			<img id = "headerLogo" src = "img/logo-new.png"></img> 
+
+			<div id = "sideWrapper">
+
+				<h1 id = "link1"> Events </h1>
+				<h1 id = "link2" style = "margin-bottom: 0px;"> Podcast </h1>
+				<h5 style = "padding: 0px; margin: 0px;" id = "link2Sub1"> View All </h5>
+				<h1 id = "link3"> About Us </h1>
+			</div>
+
+
+	</body>
+
+</html>

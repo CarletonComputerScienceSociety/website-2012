@@ -1,0 +1,45 @@
+.imgDiv
+{
+	position: relative;
+	float: left;
+	/*clear:both;*/
+
+	height: 400px;
+	width: 100px;
+
+	padding: 0px;
+
+	margin: 30px;
+}
+
+.dirImg
+{
+	width: auto;
+	height: 200px;
+}
+
+.dirBlurb1
+{
+	position:relative;
+	float: right;
+
+	width: 60%;
+
+	padding: 0px;
+
+	margin: 30px;
+}
+
+.dirBlurb2
+{
+	position:relative;
+	float: right;
+
+	width: 60%;
+
+	padding: 0px;
+
+	margin: 30px;
+
+	display: none;
+}

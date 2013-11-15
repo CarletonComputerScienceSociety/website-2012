@@ -1,0 +1,102 @@
+.sectionDiv
+{
+	position: static;
+	height: auto;
+	width: 100%;
+	margin: 0px;
+
+	padding: 5px;
+}
+#headWrapper
+{
+	position: static;
+
+	height: 150px;
+	width: 100%;
+
+	padding-top: 40px;
+	padding-left: 20px;
+
+	top: 0px;
+	left: 0px;
+	right: 0px;
+
+	background: rgba(0, 0, 0, 1);
+}
+
+#headerLogo
+{
+	position: fixed;
+	top: 5px;
+	left: 50%;
+
+	margin-left: -100px;
+
+	height: auto;
+	width: 200px;
+}
+
+#link1, #link2, #link3
+{
+	position: static;
+
+	right: 0px;
+
+	margin-left: 5%;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#spacer
+{
+	position: fixed;
+
+	height: 50px;
+	width: 100%;
+
+	left: 0px;
+	top: 0px;
+
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.sectionPreview, .sectionRPreview
+{
+	float: none;
+	width: 90%;
+
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.sectionContent, .sectionRContent, .sectionImg, .sectionRImg
+{
+	position: static;
+
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+
+	float: none;
+
+	overflow: auto;
+}
+
+.sectionOpen, .sectionROpen
+{
+	display: none;
+}
+
+iframe.content, p.content
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#bottomSpacer
+{
+	position: static;
+}

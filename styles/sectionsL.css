@@ -1,0 +1,95 @@
+
+
+#div1
+{
+	background:url(http://images.apple.com/v/iphone-5s/a/images/texture_gray.png), 
+		url(http://images.apple.com/v/iphone-5s/a/images/gradient_black.png); 
+	background-size:160px,20px 100%; 
+	background-color: #000000;
+
+	top: 7%;
+
+}
+
+#content1, #open1a
+{
+	background-color: #FF4444;
+}
+
+
+#div3
+{
+	background:url(http://images.apple.com/v/iphone-5s/a/images/texture_50.png), 
+		url(http://images.apple.com/v/iphone-5s/a/images/gradient_gold.png); 
+	background-size:160px,20px 100%;
+
+	top: 207%;
+
+}
+
+#content3, #open3a
+{
+	background-color: #649302;
+}
+
+.sectionOpen
+{
+	position: absolute;
+
+	z-index: 7;
+
+	top: 60%;
+	left: 50%;
+
+	margin: 10px;
+
+	box-shadow: 10px 10px 5px #444444;
+
+	text-decoration: none;
+}
+
+.sectionPreview
+{
+	float: right;
+	width: 30%;
+	height: 70%;
+
+	margin-top: 10%;
+	margin-right: 2%;
+
+}
+
+.sectionContent, .sectionImg
+{
+	position: absolute;
+
+	width: 60%;
+	height: 70%;
+
+
+	top: 15%;
+	left: 2%;
+
+	margin-bottom: 10px;
+
+	overflow-y: scroll;
+}
+
+.sectionContent
+{
+	z-index: 3;
+}
+
+.sectionImg
+{
+	z-index: 4;
+
+}
+
+
+
+
+
+
+
+
